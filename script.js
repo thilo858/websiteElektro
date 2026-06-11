@@ -1,4 +1,3 @@
-javascript
 const menu=document.getElementById("menuButton");
 const sidebar=document.getElementById("sidebar");
 
