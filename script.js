@@ -35,16 +35,20 @@ slide.src=images[index];
 
 },4000);
 
-window.addEventListener("scroll",function(){
+window.addEventListener("scroll", function() {
 
-const info=document.querySelector(".info");
+    const info = document.querySelector(".info");
 
-const pos=info.getBoundingClientRect().top;
+    const pos = info.getBoundingClientRect().top;
 
-if(pos<window.innerHeight-150){
+    if (pos < window.innerHeight - 150) {
 
-info.classList.add("show");
+        info.classList.add("show");
 
-}
+    } else {
+
+        info.classList.remove("show");
+
+    }
 
 });
