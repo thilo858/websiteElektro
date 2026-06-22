@@ -194,6 +194,12 @@ cursor:pointer;
 
 animation:pulse 2s infinite;
 
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:28px;
+color:white;
+
 }
 
 @keyframes pulse{
