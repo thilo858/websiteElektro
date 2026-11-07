@@ -132,6 +132,14 @@ left:0;
 
 }
 
+#sidebar a.active{
+
+color:#1976d2;
+
+font-weight:bold;
+
+}
+
 .info{
 
 padding:150px 15%;
